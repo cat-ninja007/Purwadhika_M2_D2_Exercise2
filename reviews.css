@@ -1,0 +1,64 @@
+/* Review */
+.reviews {
+    width: 100%;
+    height: 763px;
+    background-color: rgba(199, 128, 250, 1);
+}
+
+.review-card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.reviews-title h2 {
+    /* font-family: Poppins; */
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 81px;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 78px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 369px;
+    height: 432px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    background-color: rgba(236, 249, 255, 1);
+    border-radius: 20px;
+
+}
+
+.review-img img{
+    width: 158px;
+    height: auto;
+    border: 3px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    margin-bottom: 31px;
+}
+
+.review-testimony {
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 28px;
+}
+
+.review-name {
+    /* font-family: Poppins; */
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: center;
+    margin-top: 12px;
+
+}
